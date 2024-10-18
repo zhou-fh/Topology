@@ -1,10 +1,10 @@
 # 拓扑空间与连续映射
 ## 1.1 拓扑空间的定义
 **度量公理：**
-设$X$是非空集合,$d：X\times X\rightarrow \R,\forall x,y,z\in X$，有
-(1) (正定性) $d(x,y)\geq0,d(x,y)=0\Leftrightarrow x = y$ 
-(2) (对称性) $d(x,y) = d(y,x)$
-(3) (三角不等性) $d(x,y) \leq d(x,z)+d(y,z)$
+设$X$是非空集合,$d：X\times X\rightarrow \R,\forall x,y,z\in X$,有
+$(1)$ (正定性) $d(x,y)\geq0,d(x,y)=0\Leftrightarrow x = y$ 
+$(2)$ (对称性) $d(x,y) = d(y,x)$
+$(3)$ (三角不等性) $d(x,y) \leq d(x,z)+d(y,z)$
 则称$d$为$X$的一个度量。
 
 **开集公理：**
