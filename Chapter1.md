@@ -107,6 +107,9 @@ $(2)\forall B_1,B_2\in\mathscr{B},\forall x\in B_1\cap B_2,\exist B\in \mathscr{
 >$(2)$的等价描述：
 $\forall B_1,B_2\in \mathscr{B},\exist\mathscr{B}_1\subset\mathscr{B},s.t.\ B_1\cap B_2 = \cup_{B\in\mathscr{B}_1}B.$
 
+>**定理 1.4.1：**
+设$\mathscr{B}$是拓扑空间$X$的开集族,$\mathscr{B}$是的一个基$\iff$对于每一个$x$和$x$的每一个领域$U_x,\exist V_x\in \mathscr{B},s.t. \ V_x\subset U_x.$
+
 >**生成拓扑：**
 设$X$是非空集合,$\mathscr{B}$为$X$的一个拓扑基,设$X$的子集$\mathcal{J} = \{ \varnothing \}\cup\{A\subset X: \exist\mathscr{B}_A\subset\mathscr{B},s.t.\ A = \cup_{B\in\mathscr{B}_A}B\}$，易证$\mathcal{J}$是$X$的拓扑，称$\mathcal{J}$为$\mathscr{B}$生成的拓扑.
 
