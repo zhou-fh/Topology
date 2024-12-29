@@ -45,13 +45,13 @@ $\left(3\right)\mathcal{J}=\{\varnothing,A,A^{c},X\}(A\subset X,A\neq\varnothing
 **点集的一些性质:**
 $\left(1\right)V\in \mathcal{J} \Leftrightarrow \forall x\in V$，$V$ 是 $x$ 的领域。 
 $\left(2\right)E$ 是闭集$\Leftrightarrow d(E)\subset E$。
-$\left(3\right)$ 集合的内部是含于集合最大的开集，集合的闭包是包含集合的最大闭集。
+$\left(3\right)$ 集合的内部是含于集合最大的开集，集合的闭包是包含集合小的最闭集。
 
 由拓扑空间中的点集，可以定义以下两种拓扑：
 >**有限补拓扑**
 设$X$是非空集合，设$X$的子集$\mathcal{J} = \{ \varnothing \}\cup\{A\subset X: A^c$是有限集$\}$，易证$\mathcal{J}$是$X$的拓扑，称$\mathcal{J}$为$X$的有限补拓扑，称$(X,\mathcal{J})$为有限补拓扑空间。
 **可数补拓扑**
-设$X$是非空集合，设$X$的子集$\mathcal{J} = \{ \varnothing \}\cup\{A\subset X: A^c$是有限可数集$\}$，易证$\mathcal{J}$是$X$的拓扑，称$\mathcal{J}$为$X$的可数补拓扑，称$(X,\mathcal{J})$为可数补拓扑空间。
+设$X$是非空集合，设$X$的子集$\mathcal{J} = \{ \varnothing \}\cup\{A\subset X: A^c$是可数集$\}$，易证$\mathcal{J}$是$X$的拓扑，称$\mathcal{J}$为$X$的可数补拓扑，称$(X,\mathcal{J})$为可数补拓扑空间。
 
 **连续映射的定义:**
 设$X$和$Y$是两个拓扑空间,$f:X\rightarrow Y$,如果$Y$中每一个开集$U$的原像$f^{-1}(U)$是中$X$的开集,则称$f$连续.
@@ -93,7 +93,7 @@ $(2)$ 设$X$是一个拓扑空间,$Y$是一个非空集合,$f:X\rightarrow Y$,�
 设$X,Y,Z$为拓扑空间,则$(X\times Y)\times Z$与$X\times Y\times Z$同胚.
 
 **商空间拓扑**
-设$X$拓扑空间,$\sim$为$X$上的一个等价关系,$X/_\sim$是商集,映射$\pi:X\to X/_\sim$,则使映射$\pi$连续的极大拓扑为$\mathcal{J}=\{V\in X/_\sim:\pi^{-1}\in\mathcal{J}_X\}.$
+设$X$拓扑空间,$\sim$为$X$上的一个等价关系,$X/_\sim$是商集,映射$\pi:X\to X/_\sim$,则使映射$\pi$连续的极大拓扑为$\mathcal{J}=\{V\in X/_\sim:\pi^{-1}(V)\in\mathcal{J}_X\}.$
 >**命题 1.3.3**
 设$X$和$Y$为拓扑空间,映射$f:X\to Y$满射,由此定义等价关系$\sim$,则$X/_\sim$与$Y$同胚.
 
