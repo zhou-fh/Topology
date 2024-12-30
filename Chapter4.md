@@ -47,6 +47,9 @@ $T_2$空间收敛序列只有一个收敛点。
 
 **正规空间：**
 设 $X$ 是拓扑空间, 闭集 $A,B\subset X$, $A\cap B = \varnothing$, $\exist U_A,U_B$, $s.t. U_A\cap U_B=\varnothing$, 则称 $X$ 正规。
+>正规非正则的例子：
+$X=\{1,2,3\}$, 
+$\mathcal{J}=\{\varnothing,\{1\},\{2\},\{1,2\},\{1,2,3\}\}$
 
 **命题4.2.1：**
 设 $X$ 是拓扑空间, $X$ 正规$\iff$ $\forall$  闭集 $A\subset X$ 和 $A$ 的开领域 $U$, $\exist A$ 的开领域 $V$, $s.t.$ $\overline V=U$.
@@ -112,4 +115,12 @@ $T_4$空间是Tychonoff的。
 ---
 
 ## 4.6 可度量化空间
+**Hilbert空间H的子空间 $l^2$：**
+$$l^2\xlongequal{\Delta}\{\{a_n\}_{n\geq1}:a_n\in\mathbb{R},\forall m,\sum_{n=1}^{m}a_n^2<\infty\}$$
+* $l^2$ 是度量空间
+* $l^2$ 可分
+* $l^2$ 完备
+
+**Uryshon嵌入定理：**
+设 $X$ 是第二可数的$T_3$空间, 则 $X$ 可嵌入拓扑 $l^2$.
 
